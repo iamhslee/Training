@@ -9,6 +9,10 @@ int main() {
         scanf("%d", &inputPiece[i]);
         diff[i] = chessPiece[i] - inputPiece[i];
     }
+
     for(int i = 0; i < 6; i++) printf("%d ", diff[i]);
+    
     printf("\n");
+    
+    return 0;
 }
